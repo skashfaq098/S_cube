@@ -1,0 +1,35 @@
+ul{
+	list-style: none;
+	display: block;
+	padding: 0px;
+	margin: 0px;
+	
+}
+
+li{
+	float: left;
+	background-color: #56b870;
+	padding: 10px;
+	font-color: green;
+}
+
+.navbar{
+	display: flex;
+	font size: 0.7em;
+	margin: 0px;
+	cursor: pointer;
+}
+
+a{
+	color: #f5f5f6;
+	text-decoration: none;
+}
+
+body{
+	margin: auto 0;
+	padding: 0px;
+	display: inline-block;
+}
+.push{
+	margin: auto left;
+}
