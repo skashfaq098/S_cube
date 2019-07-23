@@ -1,35 +1,47 @@
-ul{
-	list-style: none;
-	display: block;
-	padding: 0px;
-	margin: 0px;
-	
-}
-
-li{
-	float: left;
-	background-color: #56b870;
-	padding: 10px;
-	font-color: green;
-}
-
-.navbar{
-	display: flex;
-	font size: 0.7em;
-	margin: 0px;
-	cursor: pointer;
-}
-
-a{
-	color: #f5f5f6;
-	text-decoration: none;
-}
-
 body{
 	margin: auto 0;
 	padding: 0px;
-	display: inline-block;
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #56b870;
+  position: sticky;
+  top: 
+}
+
+li {
+  float: left;
+  border: 1px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover{
+	background-color: grey;
+}
+
 .push{
-	margin: auto left;
+	float: right;
+
+}
+
+.active{
+	background-color: grey;
+}
+
+.navbar{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	overflow: hidden;
 }
